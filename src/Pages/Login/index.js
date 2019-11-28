@@ -1,9 +1,10 @@
 import React from 'react';
+import {Background} from './styles';
 
 function Login(){
     return(
         <>
-            <h1>Login Page</h1>
+            <Background></Background>
         </>
     );
 }

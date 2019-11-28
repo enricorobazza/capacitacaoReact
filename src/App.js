@@ -1,14 +1,11 @@
 import React from 'react';
-import Login from './Pages/Login';
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Pagina do APP</h1>
-
-      <Login></Login>
-
-    </div>
+    <>
+      <Routes/>
+    </>
   );
 }
 
